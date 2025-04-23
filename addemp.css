@@ -1,0 +1,64 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background: url('image/bgimage.png') no-repeat center center fixed;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #statusMessage {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+   */
+
+   .gradient-custom {
+    /* fallback for old browsers */
+    background: #dbeafe;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #dbeafe, #bfdbfe);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #dbeafe, #bfdbfe);
+  }
+  .login_btn:hover {
+    background-color: rgb(72, 182, 42);
+    color: white;  /* Optional: Change text color to white on hover */
+    border-color: rgb(72, 182, 42);  /* Optional: Change border color to red on hover */
+  }
+  .form-select{
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,91 @@
+.upeer_heading{
+  text-align: left;
+ }
+ 
+ .badge-custom {
+   font-size: 14px;
+   letter-spacing: 1px;
+   display: inline-block;
+   align-items: left;
+   text-align: left;
+ }
+ 
+ .header navbar-brand text-primary{
+   font-size: 10px;
+ }
+ 
+ .Home_content{
+   background-color: #e4eef8;
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+ 
+ 
+ .ovl_tag{
+   border-color: black;
+   border-radius: 11px;
+   text-align: left;
+ }
+ 
+ 
+ .header_sbs_popup_txt_tl{
+   font-size:85px;
+   margin-bottom: 30px;
+   text-align: left;
+   font-weight: bold;
+   margin-top: 40px;
+ }
+ 
+ .header_sbs_popup_txt_tl_s{
+   font-size: 22px;
+   text-align: left;
+   margin-bottom: 40px;
+ }
+
+ @media (max-width:767px) {
+  .card_mb{
+    width: 92% !important;
+  }
+ }
+
+ .taskContainer{
+  background-color: #e4eef8;
+ }
+
+ .popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
+.navbar{
+ position: sticky;
+ top: 0;
+ width: 100%;
+}
+
+.nav_hed{
+  background-color: #e4eef8;
+  position: sticky;
+ }
+
+ .swal-custom-zindex {
+  z-index: 1000 !important;
+}

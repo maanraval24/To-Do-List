@@ -1,0 +1,43 @@
+.upeer_heading{
+ text-align: left;
+}
+
+.badge-custom {
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  align-items: left;
+  text-align: left;
+}
+
+.header navbar-brand text-primary{
+  font-size: 10px;
+}
+
+.Home_content{
+  background-color: #e4eef8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.ovl_tag{
+  border-color: black;
+  border-radius: 11px;
+  text-align: left;
+}
+
+
+.header_sbs_popup_txt_tl{
+  font-size:85px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.header_sbs_popup_txt_tl_s{
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 40px;
+}

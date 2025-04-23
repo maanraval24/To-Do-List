@@ -1,0 +1,17 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #dbeafe;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #dbeafe, #bfdbfe);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #dbeafe, #bfdbfe);
+}
+
+/* Add this CSS */
+.login_btn:hover {
+  background-color: red;
+  color: white;  /* Optional: Change text color to white on hover */
+  border-color: red;  /* Optional: Change border color to red on hover */
+}

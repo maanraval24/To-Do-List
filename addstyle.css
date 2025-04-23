@@ -1,0 +1,9 @@
+@media (max-width:767px) {
+    .card_w{
+      width: 92% !important;
+    }
+   }
+
+ .nav_hed{
+  background-color: #e4eef8;
+ }
